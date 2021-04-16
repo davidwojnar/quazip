@@ -18,6 +18,7 @@ set(QUAZIP_HEADERS
         quazipfile.h
         quazipfileinfo.h
         quazipnewinfo.h
+        quaziputil.h
         unzip.h
         zip.h
    )
@@ -38,6 +39,7 @@ set(QUAZIP_SOURCES
         quazipfile.cpp
         quazipfileinfo.cpp
         quazipnewinfo.cpp
+        quaziputil.cpp
    )
 
 set(QUAZIP_INCLUDE_PATH ${QUAZIP_DIR_NAME}/quazip)
